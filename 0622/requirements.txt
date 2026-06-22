@@ -1,0 +1,42 @@
+# YOLO11 (Ultralytics)
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.11.0
+torchvision==0.26.0
+torchaudio==2.11.0
+
+ultralytics==8.3.6
+
+matplotlib>=3.3.0
+numpy==1.24.4
+opencv-python>=4.6.0
+pillow>=7.1.2
+pyyaml>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+tqdm>=4.64.0
+pandas>=1.1.4
+seaborn>=0.11.0
+psutil
+py-cpuinfo
+thop>=0.1.1
+
+
+# PaddleOCR
+--extra-index-url https://www.paddlepaddle.org.cn/packages/stable/cu126/
+
+paddlepaddle-gpu==3.3.1
+paddleocr>=2.7.0
+
+shapely
+scikit-image
+pyclipper
+
+lmdb; python_version >= "3.9"
+lmdb<1.5; python_version < "3.9"
+
+rapidfuzz
+cython
+albumentations
+albucore
+packaging
